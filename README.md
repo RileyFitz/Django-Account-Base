@@ -1,10 +1,14 @@
 # Django Accounts Base
 
-This is an example app module for Django projects, designed to handle common account actions. This includes:
+This is an example app module for Django projects, designed to handle common account actions. This version of accounts supplements the default Django user model in lieu for an AbstractUser using an email as the identifier. The Profiles model is blank but ready to accept new values for your projects needs.
+
+Account actions include:
 - Authentication (login/logout)
 - Registration  
 - Password Change
 - Profiles
+
+
 
 > NOTE: _project_name_ is used in the instructions and refers the the Main App for your project.
 
