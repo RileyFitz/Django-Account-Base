@@ -56,6 +56,9 @@ $ python3 manage.py migrate
 ```
 > For this command to work, you cannot have any Users already implemented. Refer to the link above to see how to reset a SQLite DB.
 
+### Templates
+Each template for the user models has had their base template removed to be compatible. It is recommended to add your base template to keep consistency between pages. The code extend the base template is included as comments in the templates.
+
 ### In other apps
 There are a couple ways to refer to the new custom user model. The code below should work but [here](https://learndjango.com/tutorials/django-best-practices-referencing-user-model) are some other methods to consider.
 ```py

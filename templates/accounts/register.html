@@ -1,6 +1,7 @@
-{% extends 'skills/base.html' %}
-{% block content %}
+<!-- Add your base template here -->
+<!-- 'app/base.html' -->
 
+{% block content %}
 <div class="container py-5">
 	<h1>Register</h1>
 	<form method="POST">
@@ -10,6 +11,4 @@
 	</form>
 	<p class="text-center">If you already have an account, <a href="{% url 'login' %}">login</a> instead.</p>
 </div>
-
-
 {% endblock %}
