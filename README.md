@@ -24,7 +24,7 @@ Clone this repo into the base of your Django project
 
 Next, rename the folder from 'django-accounts-example-app' to simply 'accounts'.
 
-> Side note: It recommended to delete the .git folder from this repo. Nesting Git Repos can cause issues. [Explaination](https://github.com/swcarpentry/git-novice/issues/272).
+> Side note: It recommended to delete the .git folder from this repo. Nesting Git Repos can cause issues. [Explanation](https://github.com/swcarpentry/git-novice/issues/272).
 
 ### In _project_name_/settings.py
 Add 'accounts' to INSTALLED_APPS:
@@ -63,7 +63,7 @@ $ python3 manage.py migrate
 ### Templates
 Each template for the user models has had their base template removed to be compatible. It is recommended to add your base template to keep consistency between pages. The code extend the base template is included as comments in the templates.
 
-### In other apps
+### User references in other apps
 There are a couple ways to refer to the new custom user model. The code below should work but [here](https://learndjango.com/tutorials/django-best-practices-referencing-user-model) are some other methods to consider.
 ```py
 from django.contrib.auth import get_user_model
